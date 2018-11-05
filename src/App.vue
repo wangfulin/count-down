@@ -1,32 +1,3 @@
-# vue-component-popup
-
-> 弹层组件
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-## 功能介绍
-该组件是一个倒计时组件：
-1. countDownMilliSeconds: 倒计的的毫秒数
-2. autoStart：是否开启倒计时
-3. interval: 间隔多少更新倒计时
-4. isEmit：是否发送相关的事件
-
-## 示例
-```
 <template>
   <div id="app">
     <img src="./assets/logo.png" />
@@ -53,7 +24,14 @@ export default {
   }
 }
 </script>
-```
 
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
