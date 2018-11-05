@@ -1,0 +1,16 @@
+{
+  "extends": "standard",
+  "plugins": ["vue", "jsx"],
+  "globals": {
+    "window": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "space-before-function-paren": 0,
+    "no-unused-vars": 0,
+    "one-var": 0
+  }
+}
